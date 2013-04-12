@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\rpcminer">
+      <UniqueIdentifier>{d947b41c-0d06-441d-aaaa-bc52f5617c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rpcminer">
+      <UniqueIdentifier>{b8cc3253-0ddb-4a47-86b3-b28b7fdf4ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cuda">
+      <UniqueIdentifier>{1259f867-0180-4f2e-a5ea-e7568a5f19ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cuda">
+      <UniqueIdentifier>{03b116a5-7355-4fc3-b363-e77cdb1fb892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cryptocpp">
+      <UniqueIdentifier>{c1a89d3b-4ce3-4378-b8a4-0d3ecc5a8797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\crytocpp">
+      <UniqueIdentifier>{ae86aca8-e212-4d04-a95f-a454c6731fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gpucommon">
+      <UniqueIdentifier>{bf4249c8-70da-4520-bdc5-7ab9f06f7569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\json">
+      <UniqueIdentifier>{f40be043-7a72-43b4-9a85-46eccc081f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\json">
+      <UniqueIdentifier>{9a92a898-b23a-4a12-85db-899b2d7a58c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\locale">
+      <UniqueIdentifier>{17212fe3-e997-4dce-9b3c-902a0624dc7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\minercommon">
+      <UniqueIdentifier>{6a55c7ee-0f06-4e97-8f74-c21fbd57355b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\minercommon">
+      <UniqueIdentifier>{89a76aa7-42b8-4129-942d-b6a7640f47c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\opencl">
+      <UniqueIdentifier>{5a756573-7374-4156-887d-df57c5113d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opencl">
+      <UniqueIdentifier>{43572718-65a2-4000-9e32-ea61a5995bfe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\rpcminer\hex.h">
+      <Filter>Header Files\rpcminer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rpcminer\httprequest.h">
+      <Filter>Header Files\rpcminer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rpcminer\rpcminerclient.h">
+      <Filter>Header Files\rpcminer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rpcminer\rpcminerthread.h">
+      <Filter>Header Files\rpcminer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rpcminer\rpcminerthreadgpu.h">
+      <Filter>Header Files\rpcminer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rpcminer\rpcrequest.h">
+      <Filter>Header Files\rpcminer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base58.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\bignum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\serialize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\strlcpy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\uint256.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cuda\bitcoinminercuda.h">
+      <Filter>Header Files\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cuda\cudashared.h">
+      <Filter>Header Files\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cryptopp\config.h">
+      <Filter>Header Files\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cryptopp\cpu.h">
+      <Filter>Header Files\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cryptopp\cryptlib.h">
+      <Filter>Header Files\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cryptopp\iterhash.h">
+      <Filter>Header Files\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cryptopp\misc.h">
+      <Filter>Header Files\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cryptopp\pch.h">
+      <Filter>Header Files\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cryptopp\secblock.h">
+      <Filter>Header Files\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cryptopp\sha.h">
+      <Filter>Header Files\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cryptopp\simple.h">
+      <Filter>Header Files\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cryptopp\smartptr.h">
+      <Filter>Header Files\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cryptopp\stdcpp.h">
+      <Filter>Header Files\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gpucommon\gpurunner.h">
+      <Filter>Header Files\gpucommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\json\json_spirit_writer.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\json\json_spirit_writer_template.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\json\json_spirit.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\json\json_spirit_error_position.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\json\json_spirit_reader.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\json\json_spirit_reader_template.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\json\json_spirit_stream_reader.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\json\json_spirit_utils.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\json\json_spirit_value.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\minercommon\base64.h">
+      <Filter>Header Files\minercommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\minercommon\minerheaders.h">
+      <Filter>Header Files\minercommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\opencl\bitcoinmineropencl.h">
+      <Filter>Header Files\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\opencl\openclshared.h">
+      <Filter>Header Files\opencl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\rpcminer\hex.cpp">
+      <Filter>Source Files\rpcminer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rpcminer\httprequest.cpp">
+      <Filter>Source Files\rpcminer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rpcminer\rpcminerclient.cpp">
+      <Filter>Source Files\rpcminer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rpcminer\rpcminermain.cpp">
+      <Filter>Source Files\rpcminer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rpcminer\rpcminerthreadgpu.cpp">
+      <Filter>Source Files\rpcminer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rpcminer\rpcrequest.cpp">
+      <Filter>Source Files\rpcminer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sha256.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cuda\bitcoinminercuda.cpp">
+      <Filter>Source Files\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cryptopp\cpu.cpp">
+      <Filter>Source Files\crytocpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cryptopp\sha.cpp">
+      <Filter>Source Files\crytocpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\json\json_spirit_reader.cpp">
+      <Filter>Source Files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\json\json_spirit_value.cpp">
+      <Filter>Source Files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\json\json_spirit_writer.cpp">
+      <Filter>Source Files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\minercommon\base64.c">
+      <Filter>Source Files\minercommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\opencl\bitcoinmineropencl.cpp">
+      <Filter>Source Files\opencl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\cuda\bitcoinminercuda.cu">
+      <Filter>Source Files\cuda</Filter>
+    </None>
+    <None Include="..\src\locale\readme.txt">
+      <Filter>Resource Files\locale</Filter>
+    </None>
+    <None Include="..\src\opencl\bitcoinmineropencl.cl">
+      <Filter>Source Files\opencl</Filter>
+    </None>
+  </ItemGroup>
+</Project>
