@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="..\..\src\cuda\bitcoinminercuda.cu">
+      <Filter>src\cuda</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{36684b00-8a57-4b5a-bdbd-e0513c859a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cryptocpp">
+      <UniqueIdentifier>{b036d5a9-eaec-4218-b1b8-9f8ebbb64b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\minercommon">
+      <UniqueIdentifier>{df0247fa-4ba8-47cd-8713-fcbd6578fa92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cuda">
+      <UniqueIdentifier>{9c797e35-43c0-4555-9909-2ec914f6dd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\json">
+      <UniqueIdentifier>{daa461dc-0729-4fa4-9891-9b418af09435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\rpcminer">
+      <UniqueIdentifier>{02abce25-bc98-4620-9f79-26959f6b3f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\opencl">
+      <UniqueIdentifier>{38b1e919-92f5-4f27-b9df-e31f1bdbb3ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\cryptopp\config.h">
+      <Filter>src\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptopp\cpu.h">
+      <Filter>src\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptopp\cryptlib.h">
+      <Filter>src\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptopp\iterhash.h">
+      <Filter>src\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptopp\misc.h">
+      <Filter>src\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptopp\pch.h">
+      <Filter>src\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptopp\secblock.h">
+      <Filter>src\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptopp\sha.h">
+      <Filter>src\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptopp\simple.h">
+      <Filter>src\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptopp\smartptr.h">
+      <Filter>src\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptopp\stdcpp.h">
+      <Filter>src\cryptocpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cuda\bitcoinminercuda.h">
+      <Filter>src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cuda\cudashared.h">
+      <Filter>src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\json\json_spirit.h">
+      <Filter>src\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\json\json_spirit_error_position.h">
+      <Filter>src\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\json\json_spirit_reader.h">
+      <Filter>src\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\json\json_spirit_reader_template.h">
+      <Filter>src\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\json\json_spirit_stream_reader.h">
+      <Filter>src\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\json\json_spirit_utils.h">
+      <Filter>src\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\json\json_spirit_value.h">
+      <Filter>src\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\json\json_spirit_writer.h">
+      <Filter>src\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\json\json_spirit_writer_template.h">
+      <Filter>src\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\minercommon\base64.h">
+      <Filter>src\minercommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\minercommon\minerheaders.h">
+      <Filter>src\minercommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\opencl\bitcoinmineropencl.h">
+      <Filter>src\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\opencl\openclshared.h">
+      <Filter>src\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rpcminer\hex.h">
+      <Filter>src\rpcminer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rpcminer\httprequest.h">
+      <Filter>src\rpcminer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rpcminer\rpcminerclient.h">
+      <Filter>src\rpcminer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rpcminer\rpcminerthread.h">
+      <Filter>src\rpcminer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rpcminer\rpcminerthreadgpu.h">
+      <Filter>src\rpcminer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rpcminer\rpcrequest.h">
+      <Filter>src\rpcminer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\base58.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\bignum.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\serialize.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\strlcpy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uint256.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\cryptopp\cpu.cpp">
+      <Filter>src\cryptocpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptopp\sha.cpp">
+      <Filter>src\cryptocpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cuda\bitcoinminercuda.cpp">
+      <Filter>src\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\json\json_spirit_reader.cpp">
+      <Filter>src\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\json\json_spirit_value.cpp">
+      <Filter>src\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\json\json_spirit_writer.cpp">
+      <Filter>src\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\minercommon\base64.c">
+      <Filter>src\minercommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\opencl\bitcoinmineropencl.cpp">
+      <Filter>src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rpcminer\hex.cpp">
+      <Filter>src\rpcminer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rpcminer\httprequest.cpp">
+      <Filter>src\rpcminer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rpcminer\rpcminerclient.cpp">
+      <Filter>src\rpcminer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rpcminer\rpcminermain.cpp">
+      <Filter>src\rpcminer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rpcminer\rpcminerthreadgpu.cpp">
+      <Filter>src\rpcminer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rpcminer\rpcrequest.cpp">
+      <Filter>src\rpcminer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sha256.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\cryptopp\License.txt">
+      <Filter>src\cryptocpp</Filter>
+    </None>
+    <None Include="..\..\src\cryptopp\Readme.txt">
+      <Filter>src\cryptocpp</Filter>
+    </None>
+    <None Include="..\..\src\json\LICENSE.txt">
+      <Filter>src\json</Filter>
+    </None>
+    <None Include="..\..\src\opencl\bitcoinmineropencl.cl">
+      <Filter>src\opencl</Filter>
+    </None>
+    <None Include="..\..\src\changelog.txt">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\src\coding.txt">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\src\gpl-2.0.txt">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\src\license.txt">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+</Project>
