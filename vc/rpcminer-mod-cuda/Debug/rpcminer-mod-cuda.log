@@ -1,0 +1,44 @@
+﻿Build started 4/18/2013 9:20:54 AM.
+     1>Project "F:\GitHub\rpcminer-mod\vc\rpcminer-mod-cuda\rpcminer-mod-cuda.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\rpcminer-mod-cuda.unsuccessfulbuild".
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+         Compiling CUDA source file ..\..\src\cuda\bitcoinminercuda.cu...
+         cmd.exe /C "C:\Users\Cristian\AppData\Local\Temp\tmpddcba6e0817b48ed8c207212e637417c.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"F:\GitHub\rpcminer-mod\vc\rpcminer-mod-cuda\..\..\boost\\" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\bitcoinminercuda.cu.obj" "F:\GitHub\rpcminer-mod\src\cuda\bitcoinminercuda.cu"
+         
+         F:\GitHub\rpcminer-mod\vc\rpcminer-mod-cuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"F:\GitHub\rpcminer-mod\vc\rpcminer-mod-cuda\..\..\boost\\" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\bitcoinminercuda.cu.obj" "F:\GitHub\rpcminer-mod\src\cuda\bitcoinminercuda.cu" 
+         bitcoinminercuda.cu
+         tmpxft_00000c28_00000000-2_bitcoinminercuda.cudafe1.gpu
+         tmpxft_00000c28_00000000-7_bitcoinminercuda.cudafe2.gpu
+         bitcoinminercuda.cu
+         tmpxft_00000c28_00000000-2_bitcoinminercuda.cudafe1.cpp
+         tmpxft_00000c28_00000000-12_bitcoinminercuda.ii
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\GitHub\rpcminer-mod\vc\rpcminer-mod-cuda\..\..\boost\\" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\cryptopp\cpu.cpp ..\..\src\cryptopp\sha.cpp ..\..\src\cuda\bitcoinminercuda.cpp ..\..\src\json\json_spirit_reader.cpp ..\..\src\json\json_spirit_value.cpp ..\..\src\json\json_spirit_writer.cpp ..\..\src\rpcminer\hex.cpp ..\..\src\rpcminer\httprequest.cpp ..\..\src\rpcminer\rpcminerclient.cpp ..\..\src\rpcminer\rpcminermain.cpp ..\..\src\rpcminer\rpcminerthreadgpu.cpp ..\..\src\rpcminer\rpcrequest.cpp ..\..\src\sha256.cpp
+         sha256.cpp
+         rpcrequest.cpp
+     1>f:\github\rpcminer-mod\src\rpcminer\rpcrequest.h(25): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
+         rpcminerthreadgpu.cpp
+         rpcminermain.cpp
+     1>f:\github\rpcminer-mod\src\minercommon\minerheaders.h(55): fatal error C1083: Cannot open include file: 'openssl/sha.h': No such file or directory
+         rpcminerclient.cpp
+     1>f:\github\rpcminer-mod\src\minercommon\minerheaders.h(55): fatal error C1083: Cannot open include file: 'openssl/sha.h': No such file or directory
+         httprequest.cpp
+     1>f:\github\rpcminer-mod\src\rpcminer\httprequest.cpp(20): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
+         hex.cpp
+         json_spirit_writer.cpp
+         json_spirit_value.cpp
+         json_spirit_reader.cpp
+         bitcoinminercuda.cpp
+     1>f:\github\rpcminer-mod\src\minercommon\minerheaders.h(55): fatal error C1083: Cannot open include file: 'openssl/sha.h': No such file or directory
+         sha.cpp
+         cpu.cpp
+         Generating Code...
+     1>Done Building Project "F:\GitHub\rpcminer-mod\vc\rpcminer-mod-cuda\rpcminer-mod-cuda.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:32.17
