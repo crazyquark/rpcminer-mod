@@ -36,7 +36,7 @@ CUDARunner::CUDARunner():GPURunner<unsigned long,int>(TYPE_CUDA)
 	CUresult rval;
 	int major=0;
 	int minor=0;
-	std::string cuda_module_path("bitcoinminercuda.ptx");
+	std::string cuda_module_path(".\\bitcoinminercuda.ptx");
 
 	rval=cuInit(0);
 
