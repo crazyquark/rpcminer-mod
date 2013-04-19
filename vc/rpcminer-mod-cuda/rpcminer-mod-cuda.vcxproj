@@ -112,6 +112,7 @@ copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
     <ClInclude Include="..\..\src\cryptopp\stdcpp.h" />
     <ClInclude Include="..\..\src\cuda\bitcoinminercuda.h" />
     <ClInclude Include="..\..\src\cuda\cudashared.h" />
+    <ClInclude Include="..\..\src\gpucommon\gpurunner.h" />
     <ClInclude Include="..\..\src\json\json_spirit.h" />
     <ClInclude Include="..\..\src\json\json_spirit_error_position.h" />
     <ClInclude Include="..\..\src\json\json_spirit_reader.h" />

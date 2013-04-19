@@ -27,6 +27,9 @@
     <Filter Include="src\opencl">
       <UniqueIdentifier>{38b1e919-92f5-4f27-b9df-e31f1bdbb3ae}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\gpucommon">
+      <UniqueIdentifier>{fd86e503-7155-41b9-b42f-ae27907dfa73}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\cryptopp\config.h">
@@ -142,6 +145,9 @@
     </ClInclude>
     <ClInclude Include="..\..\src\util.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gpucommon\gpurunner.h">
+      <Filter>src\gpucommon</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
